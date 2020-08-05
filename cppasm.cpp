@@ -53,6 +53,9 @@ double* GameObjects<double>::getData()
 int main(int argc, char *argv[])
 {
     std::cout.precision(10);
+
+    std::cout << "Repository power!!!" << std::endl;
+
     int value = 10, value2 = 355, value3 = 777;
     int *pointer = &value2;
     int *pointer2 = &value3;
